@@ -3,6 +3,8 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <h1>Hello</h1>
+    <div>
+      <h1>Welcome to NSBM AccommodationFinder </h1>
+    </div>
   );
 }

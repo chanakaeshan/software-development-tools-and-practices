@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <header className="header">
-          <a> <a href="/" className="logo">NSBM</a></a>
+          <a> <Link href="/" className="logo">NSBM</Link></a>
 
           <i class='bx bx-menu' id="menu-icon"></i>
 

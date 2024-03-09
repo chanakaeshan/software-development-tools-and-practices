@@ -13,20 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="header">
-          <a> <Link href="/" className="logo">NSBM</Link></a>
-
-          <i class='bx bx-menu' id="menu-icon"></i>
-
-          <nav className="navbar">
-            
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="/accommodation">Accommodation</Link></li>
-            <li><Link href="/add_accommodation">Add Accommodation</Link></li>
-            
-          </nav>
-          <button><Link href="/signin">LogIn</Link></button>
-          </header>
+        
         {children}
       </body> 
     </html>

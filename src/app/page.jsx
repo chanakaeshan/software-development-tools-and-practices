@@ -3,8 +3,13 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Welcome to NSBM AccommodationFinder </h1>
+    <div className="body">
+      <div>
+      <h2>Welcome to NSBM Green University Accommodation</h2>
+            <p>Find your perfect accommodation around the NSBM Green University campus.</p>
+            <p>Browse through our listings of available accommodations or register as a landlord to advertise your property.</p>
+      </div>
     </div>
+    
   );
 }

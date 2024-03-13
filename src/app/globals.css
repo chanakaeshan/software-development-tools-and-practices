@@ -7,6 +7,7 @@
 
 body{
   min-height: 100vh;
+  min-width: 75vw;
   background-color: rgb(255, 255, 255);
   background-size: cover;
   background-position: center;
@@ -63,7 +64,7 @@ nav a:hover {
 }
 footer {
   position: absolute;
-  bottom: 0;
+  bottom: 110;
   left: 0;
   right: 0;
   background: #000000;

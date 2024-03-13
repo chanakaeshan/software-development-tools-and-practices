@@ -1,8 +1,9 @@
 import React from 'react'
+import Link from 'next/link'
 
 function page() {
   return (
-    <div>Sign Up</div>
+    <div>view-properties</div>
   )
 }
 

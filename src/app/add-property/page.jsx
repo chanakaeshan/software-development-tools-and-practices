@@ -2,7 +2,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div>Sign In</div>
+    <div>add-property</div>
   )
 }
 
